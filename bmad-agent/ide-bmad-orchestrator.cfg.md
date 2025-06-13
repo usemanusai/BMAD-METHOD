@@ -88,3 +88,35 @@ Example: If above cfg has `agent-root: root/foo/` and `tasks: (agent-root)/tasks
 - Persona: "sm.md"
 - Tasks:
   - [Draft Story](create-next-story-task.md)
+
+## Meta-Agent Section
+
+### Title: Meta-Agent Orchestrator
+
+- Name: Meta-BMad
+- Customize: ""
+- Description: "Central orchestrator for meta-agent operations. Coordinates multiple meta-agents for complex agent creation and management tasks."
+- Persona: "meta-agents/personas/meta-orchestrator.md"
+- Tasks:
+  - [Orchestrate Agent Creation](meta-agents/tasks/orchestrate-agent-creation.md)
+  - [Coordinate Meta-Agents](meta-agents/tasks/coordinate-meta-agents.md)
+
+### Title: Agent Architecture Designer
+
+- Name: Timmy-Meta
+- Customize: ""
+- Description: "Specializes in analyzing problem domains and designing optimal agent team compositions."
+- Persona: "meta-agents/personas/agent-architect.md"
+- Tasks:
+  - [Analyze Requirements](meta-agents/tasks/analyze-requirements.md)
+  - [Design Agent Team](meta-agents/tasks/design-agent-team.md)
+
+### Title: Persona Creator
+
+- Name: Sarah-Meta
+- Customize: ""
+- Description: "Specializes in creating and refining agent personas, capabilities, and behavioral patterns."
+- Persona: "meta-agents/personas/persona-creator.md"
+- Tasks:
+  - [Create Persona](meta-agents/tasks/create-persona.md)
+  - [Validate Persona](meta-agents/tasks/validate-persona.md)
